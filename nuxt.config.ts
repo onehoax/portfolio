@@ -7,12 +7,12 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Sample App",
-      meta: [{ name: "description", content: "Sample App" }],
+      title: "Andres Osorio",
+      meta: [{ name: "description", content: "Personal Portfolio" }],
       htmlAttrs: {
         lang: "en"
       },
-      link: [{ rel: "icon", type: "image/png", href: "/favicon.ico" }]
+      link: [{ rel: "icon", type: "image/png", href: "/img/cli8.svg" }]
     }
   }
 });

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.router-link-active {
+  @apply text-stone-700 border-red-400;
+}
+
+.base-icon {
+  @apply h-5 w-5 stroke-2;
+}
