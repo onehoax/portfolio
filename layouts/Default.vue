@@ -1,12 +1,12 @@
 <template>
-  <div class="h-screen max-w-screen md:grid md:grid-cols-5">
+  <div class="flex flex-col h-screen md:grid md:grid-cols-5">
     <div class="mt-2 md:col-span-1 md:flex md:justify-end">
       <header>
         <div class="flex justify-between items-center">
           <h1 class="base-heading-link p-4 border-b border-gray-100 truncate">
             <NuxtLink to="/">Andres Osorio</NuxtLink>
           </h1>
-          <button class="z-10 mx-4 md:hidden" @click="toggleOpen()">
+          <button class="z-20 mx-4 md:hidden" @click="toggleOpen()">
             <Bars3Icon v-if="!isOpen" class="menu-icon" />
             <XMarkIcon v-if="isOpen" class="menu-icon" />
           </button>
@@ -15,44 +15,45 @@
           <button
             v-if="isOpen"
             @click="isOpen = false"
-            class="fixed inset-0 h-full w-full bg-black opacity-25 cursor-default md:hidden"
+            class="fixed z-10 inset-0 h-full w-full bg-black opacity-25 cursor-default md:hidden"
             tabindex="-1"
           ></button>
         </div>
         <nav
           :class="isOpen ? 'block' : 'hidden'"
-          class="absolute right-5 md:flex md:justify-end md:static md:mt-5 md:mr-2"
+          class="absolute z-10 right-5 md:flex md:justify-end md:static md:mt-5 md:mr-2"
         >
           <ul class="border rounded-md bg-white shadow-lg w-32 md:w-28 py-2 pr-2 md:border-none md:shadow-none md:pr-0">
             <NavLink name="home">
-              <HomeIcon class="base-icon" />
+              <HomeIcon class="header-icon" />
             </NavLink>
             <NavLink name="about">
-              <InformationCircleIcon class="base-icon" />
+              <InformationCircleIcon class="header-icon" />
             </NavLink>
             <NavLink name="resume">
-              <IdentificationIcon class="base-icon" />
+              <IdentificationIcon class="header-icon" />
             </NavLink>
             <NavLink name="projects">
-              <BriefcaseIcon class="base-icon" />
+              <BriefcaseIcon class="header-icon" />
             </NavLink>
             <NavLink name="services">
-              <CommandLineIcon class="base-icon" />
+              <CommandLineIcon class="header-icon" />
             </NavLink>
           </ul>
         </nav>
       </header>
     </div>
-    <div class="relative h-screen md:col-span-4 bg-gray-200">
+    <div class="relative flex-1 md:col-span-4 bg-gray-200">
+      <!-- page content -->
       <slot />
-
-      <footer class="absolute bottom-0 h-10 w-full">
-        <nav class="flex justify-center">
-          <NuxtLink>
-            <EnvelopeIcon class="base-icon" />
+      <!-- page content -->
+      <footer class="h-16 absolute bottom-0 w-full">
+        <nav class="flex justify-center items-center border-t border-gray-300 mx-4 pt-4">
+          <NuxtLink :href="email" class="mx-4">
+            <EnvelopeIcon class="footer-icon" />
           </NuxtLink>
-          <NuxtLink>
-            <BriefcaseIcon class="base-icon" />
+          <NuxtLink :to="github" target="_blank" class="mx-4">
+            <img src="/img/gh2.svg" class="h-5" />
           </NuxtLink>
         </nav>
       </footer>
@@ -79,6 +80,9 @@ useHead({
 });
 
 const isOpen = ref(false);
+
+const email = "mailto:andres.osoriogr@gmail.com";
+const github = "https://github.com/onehoax";
 
 function toggleOpen() {
   isOpen.value = !isOpen.value;

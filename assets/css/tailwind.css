@@ -11,9 +11,17 @@
 }
 
 .base-icon {
-  @apply h-5 w-5 stroke-2;
+  @apply stroke-2 hover:text-stone-700;
+}
+
+.header-icon {
+  @apply base-icon h-5 w-5;
 }
 
 .menu-icon {
-  @apply h-8 w-8 stroke-2 hover:text-stone-700;
+  @apply base-icon h-8 w-8;
+}
+
+.footer-icon {
+  @apply base-icon h-6;
 }
