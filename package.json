@@ -12,7 +12,7 @@
   "prettier": {
     "tabWidth": 2,
     "trailingComma": "none",
-    "printWidth": 150
+    "printWidth": 120
   },
   "devDependencies": {
     "@heroicons/vue": "^2.0.18",
