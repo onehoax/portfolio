@@ -1,6 +1,6 @@
 <template>
-  <li class="base-heading-link text-sm my-1">
-    <NuxtLink :to="getPath()" class="flex justify-between items-center px-4 border-r-4 border-white">
+  <li class="base-heading-link text-xs my-2">
+    <NuxtLink :to="getPath()" class="flex justify-between items-center px-3 border-r-4 border-white">
       <slot />
       <span>{{ name }}</span>
     </NuxtLink>

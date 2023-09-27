@@ -3,7 +3,7 @@
     <div class="mt-2 md:col-span-1 md:flex md:justify-end">
       <header>
         <div class="flex justify-between items-center">
-          <h1 class="base-heading-link p-4 border-b border-gray-100">
+          <h1 class="base-heading-link p-4 border-b border-gray-100 truncate">
             <NuxtLink to="/">Andres Osorio</NuxtLink>
           </h1>
           <button class="z-10 mx-4 md:hidden" @click="toggleOpen()">
@@ -19,10 +19,11 @@
             tabindex="-1"
           ></button>
         </div>
-        <nav :class="isOpen ? 'block' : 'hidden'" class="absolute right-5 md:block md:static md:mt-5">
-          <ul
-            class="border rounded-md bg-white shadow-lg w-36 text-right py-2 pr-2 md:border-none md:shadow-none md:pr-0"
-          >
+        <nav
+          :class="isOpen ? 'block' : 'hidden'"
+          class="absolute right-5 md:flex md:justify-end md:static md:mt-5 md:mr-2"
+        >
+          <ul class="border rounded-md bg-white shadow-lg w-32 md:w-28 py-2 pr-2 md:border-none md:shadow-none md:pr-0">
             <NavLink name="home">
               <HomeIcon class="base-icon" />
             </NavLink>
