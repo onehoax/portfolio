@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import { HomeIcon, QuestionMarkCircleIcon, EnvelopeIcon, Bars3Icon } from "@heroicons/vue/24/outline";
+import { HomeIcon, QuestionMarkCircleIcon, EnvelopeIcon, Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 useHead({
   bodyAttrs: {
