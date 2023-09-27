@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .base-heading-link {
-  @apply font-bold uppercase tracking-wide hover:text-stone-500;
+  @apply font-bold uppercase tracking-wide hover:text-stone-700;
 }
 
 .router-link-active {
-  @apply text-stone-500 border-red-400;
+  @apply text-stone-700 border-red-400;
 }
 
 .base-icon {
@@ -15,5 +15,5 @@
 }
 
 .menu-icon {
-  @apply h-8 w-8 stroke-2 hover:text-stone-500;
+  @apply h-8 w-8 stroke-2 hover:text-stone-700;
 }

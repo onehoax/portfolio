@@ -1,5 +1,5 @@
 <template>
-  <div class="md:grid md:grid-cols-5">
+  <div class="h-screen max-w-screen md:grid md:grid-cols-5">
     <div class="mt-2 md:col-span-1 md:flex md:justify-end">
       <header>
         <div class="flex justify-between items-center">
@@ -43,8 +43,19 @@
         </nav>
       </header>
     </div>
-    <div class="md:col-span-4 bg-gray-200">
+    <div class="relative h-screen md:col-span-4 bg-gray-200">
       <slot />
+
+      <footer class="absolute bottom-0 h-10 w-full">
+        <nav class="flex justify-center">
+          <NuxtLink>
+            <EnvelopeIcon class="base-icon" />
+          </NuxtLink>
+          <NuxtLink>
+            <BriefcaseIcon class="base-icon" />
+          </NuxtLink>
+        </nav>
+      </footer>
     </div>
   </div>
 </template>
@@ -63,7 +74,7 @@ import {
 
 useHead({
   bodyAttrs: {
-    class: "text-stone-400 bg-white"
+    class: "text-stone-500 bg-white"
   }
 });
 
