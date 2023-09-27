@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .base-heading-link {
-  @apply font-bold uppercase tracking-wide hover:text-stone-700;
+  @apply font-bold tracking-wide hover:text-stone-700;
 }
 
 .router-link-active {
@@ -19,7 +19,8 @@
 }
 
 .menu-icon {
-  @apply base-icon h-8 w-8;
+  /* @apply base-icon h-8 w-8; */
+  @apply h-8 w-8 stroke-1 stroke-stone-500 hover:stroke-stone-700;
 }
 
 .footer-icon {

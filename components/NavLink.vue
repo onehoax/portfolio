@@ -1,5 +1,5 @@
 <template>
-  <li class="base-heading-link text-xs my-2">
+  <li class="base-heading-link text-sm my-2">
     <NuxtLink :to="getPath()" class="flex justify-between items-center px-3 border-r-4 border-white">
       <slot />
       <span>{{ name }}</span>
@@ -11,7 +11,8 @@
 const { name } = defineProps(["name"]);
 
 function getPath() {
-  if (name === "home") return "/";
-  else return `/${name}`;
+  const lowerName = name.toLowerCase();
+  if (lowerName === "home") return "/";
+  else return `/${lowerName}`;
 }
 </script>
