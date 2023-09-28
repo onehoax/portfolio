@@ -10,6 +10,17 @@
         function, just on different platforms. Because a PWA is developed using web technologies, it is platform
         agnostic; therefore you develop a single product that serves both as the website and as the mobile app.
       </p>
+      <h1 class="content-heading mt-6">Web Sites</h1>
+      <p class="mt-4">
+        A PWA is suitable for products that are meant to work as applications, meaning they are highly functional and
+        usually interact with other services (the underlying OS, a database, market data, etc.). An organization doesn't
+        always need a PWA, a simple website to showcase their content might suffice.
+      </p>
+      <h1 class="content-heading mt-6">General Software Development</h1>
+      <p class="mt-4">
+        TypeScript/JavaScript can be used for virtually anything since it can be used both on the server and client
+        side. I specialize in Full-Stack TypeScript development using Node for the back-end and Vue for the front-end.
+      </p>
       <button
         class="p-2 mt-6 uppercase font-semibold bg-stone-200 shadow-md rounded-lg hover:bg-red-400 hover:text-white transition ease-out duration-300"
       >
