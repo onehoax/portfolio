@@ -32,7 +32,7 @@
 }
 
 .main-content {
-  @apply p-2 rounded-md border-r-2 border-b-2 hover:shadow-lg hover:text-stone-700 hover:bg-stone-50 transition ease-out duration-500;
+  @apply p-4 rounded-md border-r-2 border-b-2 hover:shadow-lg hover:text-stone-700 hover:bg-stone-50 transition ease-out duration-500;
 }
 
 /* ==================== Scrollbar ====================

@@ -59,7 +59,7 @@
           </NuxtLink>
           <NuxtLink :to="github" target="_blank" class="mx-4">
             <svg
-              class="h-8 w-8 fill-current text-gray-500 px-0 hover:text-gray-700"
+              class="h-9 w-9 fill-current text-stone-500 px-0 hover:text-stone-700"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
