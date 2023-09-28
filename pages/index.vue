@@ -1,7 +1,12 @@
 <template>
   <main class="main-content-wrapper">
-    <div class="main-content text-center">
-      <h1 class="content-heading">General</h1>
+    <div class="main-content text-center leading-7">
+      <h1 class="content-heading">Professional</h1>
+      <p class="mt-4">
+        I am a Full-Stack TypeScript Developer with experience in the banking industry and a variety of other fields; I
+        design and implement Full-Stack Progressive Web App (PWA) solutions following agile methodologies.
+      </p>
+      <h1 class="content-heading mt-6">General</h1>
       <p class="mt-4">
         My name is Carlos Andres Osorio. I was born in Colombia but moved to Toronto, Canada in 2006. I lived in Toronto
         for over 15 years, then moved back to Colombia in 2023, and am currently residing in it. I am very passionate
@@ -29,7 +34,7 @@
         CIBC as I was moving back to Colombia and have been working independently ever since. I have worked with various
         technologies throughout my career, but I have mostly used Java, RDBMSs, and web technologies. I am currently
         submerged in the web world, specifically using PostgreSQL, Prisma, TypeScript, Node, Nest, Nuxt, and Tailwind to
-        design and implement Full-Stack PWA solutions.
+        design and implement Full-Stack PWA solutions following agile methodologies.
       </p>
     </div>
   </main>
