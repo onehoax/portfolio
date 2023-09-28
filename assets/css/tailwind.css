@@ -27,6 +27,16 @@
   @apply base-icon h-6;
 }
 
+.main-content-wrapper {
+  @apply absolute text-justify p-2 m-10 overflow-y-auto h-5/6;
+}
+
+.main-content {
+  @apply p-2 rounded-md border-r-2 border-b-2 hover:shadow-lg hover:text-stone-700 hover:bg-stone-50 transition ease-out duration-500;
+}
+
+/* ==================== Scrollbar ====================
+
 /* width */
 ::-webkit-scrollbar {
   @apply w-2;

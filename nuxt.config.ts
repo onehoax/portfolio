@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "en"
       },
-      link: [{ rel: "icon", type: "image/png", href: "/img/cli8.svg" }]
+      link: [{ rel: "icon", type: "image/png", href: "/img/icon.svg" }]
     }
   }
 });

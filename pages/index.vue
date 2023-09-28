@@ -1,6 +1,6 @@
 <template>
-  <main class="absolute flex justify-center m-10 overflow-y-auto h-5/6">
-    <div>
+  <main class="main-content-wrapper">
+    <div class="main-content">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ab dolorum nobis suscipit nulla, blanditiis
       necessitatibus aspernatur tempore corporis quibusdam beatae. Vitae animi impedit beatae cumque accusantium.
       Cupiditate, vel hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure esse earum dolorem animi
