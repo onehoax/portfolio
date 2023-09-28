@@ -48,12 +48,12 @@
         </nav>
       </header>
     </div>
-    <div class="relative flex-1 md:col-span-4 bg-gray-200 shadow-inner shadow-stone-400">
+    <div class="relative flex-1 md:col-span-4 bg-gray-100 shadow-inner shadow-stone-400">
       <!-- page content -->
       <slot />
       <!-- page content -->
-      <footer class="h-16 absolute bottom-0 w-full">
-        <nav class="flex justify-center items-center border-t border-gray-300 mx-4 pt-4">
+      <footer class="h-16 absolute bottom-0 w-full bg-stone-200 shadow-xl shadow-black">
+        <nav class="flex justify-center items-center mx-4 pt-4">
           <NuxtLink :href="email" class="mx-4">
             <PaperAirplaneIcon class="footer-icon" />
           </NuxtLink>

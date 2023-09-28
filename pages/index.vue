@@ -1,5 +1,5 @@
 <template>
-  <main class="flex justify-center m-10 overflow-y-auto h-96">
+  <main class="absolute flex justify-center m-10 overflow-y-auto h-5/6">
     <div>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ab dolorum nobis suscipit nulla, blanditiis
       necessitatibus aspernatur tempore corporis quibusdam beatae. Vitae animi impedit beatae cumque accusantium.
