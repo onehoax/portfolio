@@ -26,9 +26,6 @@
           <ul
             class="border rounded-md bg-white shadow-lg w-36 md:w-32 mt-2 py-2 pr-2 md:border-none md:shadow-none md:pr-0"
           >
-            <NavLink name="Home">
-              <HomeIcon class="header-icon" />
-            </NavLink>
             <NavLink name="About">
               <InformationCircleIcon class="header-icon" />
             </NavLink>
@@ -76,7 +73,6 @@
 
 <script setup lang="ts">
 import {
-  HomeIcon,
   InformationCircleIcon,
   IdentificationIcon,
   CommandLineIcon,

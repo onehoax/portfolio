@@ -1,5 +1,5 @@
 <template>
-  <div>THIS IS THE RESUME PAGE</div>
+  <ContentDoc />
 </template>
 
 <script setup lang="ts"></script>
