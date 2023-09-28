@@ -26,3 +26,23 @@
 .footer-icon {
   @apply base-icon h-6;
 }
+
+/* width */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-stone-200;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-stone-300 rounded-full;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-stone-400;
+}
