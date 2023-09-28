@@ -23,7 +23,9 @@
           :class="isOpen ? 'block' : 'hidden'"
           class="absolute z-10 right-5 md:flex md:justify-end md:static md:mt-5 md:mr-2"
         >
-          <ul class="border rounded-md bg-white shadow-lg w-36 md:w-32 py-2 pr-2 md:border-none md:shadow-none md:pr-0">
+          <ul
+            class="border rounded-md bg-white shadow-lg w-36 md:w-32 mt-2 py-2 pr-2 md:border-none md:shadow-none md:pr-0"
+          >
             <NavLink name="Home">
               <HomeIcon class="header-icon" />
             </NavLink>
@@ -46,7 +48,7 @@
         </nav>
       </header>
     </div>
-    <div class="relative flex-1 md:col-span-4 bg-gray-200">
+    <div class="relative flex-1 md:col-span-4 bg-gray-200 shadow-inner shadow-stone-400">
       <!-- page content -->
       <slot />
       <!-- page content -->
