@@ -4,10 +4,10 @@
       <h1 class="content-heading">General</h1>
       <p class="mt-4">
         My name is Carlos Andres Osorio. I was born in Colombia but moved to Toronto, Canada in 2006. I lived in Toronto
-        for over 15 years, then moved back to Colombia in 2023, and am currently residing in it. <br />
-        I am very passionate about technology in general and how it can be used to improve our lives and help the world.
-        I specifically love programming because even though it is very logical, it is also a form of art through its
-        infinite layers of abstraction. <br />
+        for over 15 years, then moved back to Colombia in 2023, and am currently residing in it. I am very passionate
+        about technology in general and how it can be used to improve our lives and help the world. I specifically love
+        programming because even though it is very logical, it is also a form of art through its infinite layers of
+        abstraction.
       </p>
       <h1 class="content-heading mt-6">Behavioral Science</h1>
       <p class="mt-4">
@@ -26,7 +26,10 @@
         go into Software Development. I completed a Bachelor of Computer Science in 2 years and 1/2 at York University
         (TO, CA). Shortly after graduation, I got into a Data Engineering organization, which then connected me to CIBC
         (Canadian Imperial Bank of Commerce ), where I worked for over 1 year and 1/2 as a Full-Stack Developer. I left
-        CIBC as I was moving back to Colombia and have been working independently ever since.
+        CIBC as I was moving back to Colombia and have been working independently ever since. I have worked with various
+        technologies throughout my career, but I have mostly used Java, RDBMSs, and web technologies. I am currently
+        submerged in the web world, specifically using PostgreSQL, Prisma, TypeScript, Node, Nest, Nuxt, and Tailwind to
+        design and implement Full-Stack PWA solutions.
       </p>
     </div>
   </main>
