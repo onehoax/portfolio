@@ -1,7 +1,7 @@
 <template>
-  <main class="main-content-wrapper">
+  <MainContent title="Projects">
     <ProjectCard v-for="(p, i) in projects" :project="p" :class="{ 'mt-4': i > 0 }" />
-  </main>
+  </MainContent>
 </template>
 
 <script setup lang="ts">

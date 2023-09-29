@@ -1,5 +1,7 @@
 <template>
-  <main>THIS IS THE CONTACT PAGE</main>
+  <MainContent title="Contact">
+    <div class="main-content leading-7"></div>
+  </MainContent>
 </template>
 
 <script setup lang="ts"></script>

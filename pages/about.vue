@@ -1,13 +1,12 @@
 <template>
-  <h1 class="content-title">About</h1>
-  <main class="main-content-wrapper">
+  <MainContent title="About">
     <div class="main-content leading-7">
-      <h1 class="content-heading">Professional</h1>
+      <h2 class="content-heading">Professional</h2>
       <p class="mt-4">
         I am a Full-Stack TypeScript Developer with experience in the banking industry and a variety of other fields; I
         design and implement Full-Stack Progressive Web App (PWA) solutions following agile methodologies.
       </p>
-      <h1 class="content-heading mt-6">General</h1>
+      <h2 class="content-heading mt-6">General</h2>
       <p class="mt-4">
         My name is Carlos Andres Osorio. I was born in Colombia but moved to Toronto, Canada in 2006. I lived in Toronto
         for over 15 years, then moved back to Colombia in 2023, and am currently residing in it. I am very passionate
@@ -16,7 +15,7 @@
         abstraction.
       </p>
 
-      <h1 class="content-heading mt-6">Software Development</h1>
+      <h2 class="content-heading mt-6">Software Development</h2>
       <p class="mt-4">
         After working in Behavior Modification for a couple of years, I realized that although it was a very rewarding
         field, it was not what I wanted to do for the rest of my life. Therefore I decided to go back to University to
@@ -28,7 +27,7 @@
         technologies. I am currently submerged in the web world, specifically using PostgreSQL, Prisma, TypeScript,
         Node, Nest, Nuxt, and Tailwind to design and implement Full-Stack PWA solutions following agile methodologies.
       </p>
-      <h1 class="content-heading mt-6">Behavioral Science</h1>
+      <h2 class="content-heading mt-6">Behavioral Science</h2>
       <p class="mt-4">
         I initially studied Behavioral Science at George Brown, College (TO, CA). This program was tailored to working
         in the autism field, so I worked in the field for a couple of years, designing and implementing behavior
@@ -39,7 +38,7 @@
         Mental Health (CAMH), which taught me many valuable life lessons.
       </p>
     </div>
-  </main>
+  </MainContent>
 </template>
 
 <script setup lang="ts"></script>
