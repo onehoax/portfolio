@@ -28,7 +28,7 @@
 }
 
 .main-content-wrapper {
-  @apply absolute text-justify p-2 m-10 overflow-y-auto h-5/6 left-0 right-0;
+  @apply absolute text-justify p-2 mx-10 mt-5 overflow-y-auto h-3/4 left-0 right-0;
 }
 
 .main-content {
@@ -37,6 +37,10 @@
 
 .content-heading {
   @apply font-bold text-2xl border-b border-stone-200 pb-2;
+}
+
+.content-title {
+  @apply ml-14 mt-10 text-stone-700 text-6xl font-semibold;
 }
 
 /* ==================== Scrollbar ====================

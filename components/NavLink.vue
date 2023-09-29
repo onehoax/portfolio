@@ -12,7 +12,7 @@ const { name } = defineProps(["name"]);
 
 function getPath() {
   const lowerName = name.toLowerCase();
-  if (lowerName === "about") return "/";
+  if (lowerName === "home") return "/";
   else return `/${lowerName}`;
 }
 </script>
