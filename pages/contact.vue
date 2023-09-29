@@ -1,6 +1,6 @@
 <template>
   <MainContent title="Contact">
-    <div class="main-content leading-7"></div>
+    <div class="main-content"></div>
   </MainContent>
 </template>
 

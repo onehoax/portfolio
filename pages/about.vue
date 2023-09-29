@@ -1,6 +1,6 @@
 <template>
   <MainContent title="About">
-    <div class="main-content leading-7">
+    <div class="main-content">
       <h2 class="content-heading">Professional</h2>
       <p class="mt-4">
         I am a Full-Stack TypeScript Developer with experience in the banking industry and a variety of other fields; I

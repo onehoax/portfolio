@@ -1,6 +1,6 @@
 <template>
   <MainContent title="Services">
-    <div class="main-content leading-7">
+    <div class="main-content">
       <h2 class="content-heading">Progressive Web Apps</h2>
       <p class="mt-4">
         I design and implement Full-Stack Progressive Web App (PWA) solutions. A PWA is basically a website that can

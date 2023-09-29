@@ -1,6 +1,6 @@
 <template>
   <main class="main-content-wrapper">
-    <div class="main-content leading-7"></div>
+    <div class="main-content"></div>
   </main>
 </template>
 
