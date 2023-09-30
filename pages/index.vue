@@ -1,17 +1,20 @@
 <template>
   <MainContent title="Software Developer">
-    <div class="lg:grid grid-cols-2 gap-5">
-      <MainCard
-        v-for="(card, i) in cards"
-        :page="card.to"
-        :title="card.title"
-        :description="card.description"
-        class="lg:mt-0"
-        :class="{ 'mt-4': i > 0 }"
-      >
-        <IdentificationIcon class="home-page-icon" />
-      </MainCard>
-    </div>
+    <MainCard :page="cards[0].to" :title="cards[0].title" :description="cards[0].description" class="lg:mt-0">
+      <IdentificationIcon class="home-page-icon" />
+    </MainCard>
+    <MainCard :page="cards[1].to" :title="cards[1].title" :description="cards[1].description" class="mt-4">
+      <BriefcaseIcon class="home-page-icon" />
+    </MainCard>
+    <MainCard :page="cards[2].to" :title="cards[2].title" :description="cards[2].description" class="mt-4">
+      <CommandLineIcon class="home-page-icon" />
+    </MainCard>
+    <MainCard :page="cards[3].to" :title="cards[3].title" :description="cards[3].description" class="mt-4">
+      <InformationCircleIcon class="home-page-icon" />
+    </MainCard>
+    <MainCard :page="cards[4].to" :title="cards[4].title" :description="cards[4].description" class="mt-4">
+      <EnvelopeIcon class="home-page-icon" />
+    </MainCard>
   </MainContent>
 </template>
 
@@ -21,10 +24,7 @@ import {
   IdentificationIcon,
   CommandLineIcon,
   BriefcaseIcon,
-  EnvelopeIcon,
-  PaperAirplaneIcon,
-  Bars3Icon,
-  XMarkIcon
+  EnvelopeIcon
 } from "@heroicons/vue/24/solid";
 
 const cards = [
@@ -34,9 +34,24 @@ const cards = [
     description: "Learn more about my professional qualifications"
   },
   {
+    to: "/projects",
+    title: "Software Projects",
+    description: "Check out the projects I am working on"
+  },
+  {
+    to: "/services",
+    title: "Development Services",
+    description: "Explore the services I provide "
+  },
+  {
     to: "/about",
-    title: "Avid Learner of ",
-    description: "Learn more about my professional qualifications"
+    title: "About",
+    description: "A Little About Me"
+  },
+  {
+    to: "/contact",
+    title: "Contact Information",
+    description: "Get in touch"
   }
 ];
 </script>

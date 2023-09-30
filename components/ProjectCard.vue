@@ -1,7 +1,7 @@
 <template>
   <main>
     <div
-      class="main-content font-semibold tracking-wide uppercase h-56 flex flex-col justify-center items-center text-center overflow-auto"
+      class="main-content font-semibold tracking-wide uppercase h-56 flex flex-col justify-center items-center text-center overflow-auto lg:w-2/3 lg:mx-auto"
     >
       <p>{{ project.description }}</p>
       <p class="mt-4">{{ project.stack }}</p>

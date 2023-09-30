@@ -23,12 +23,8 @@
   @apply h-8 w-8 stroke-1 stroke-stone-500 hover:stroke-stone-700;
 }
 
-.footer-icon {
-  @apply base-icon h-6;
-}
-
 .home-page-icon {
-  @apply base-icon h-10;
+  @apply base-icon h-8 sm:h-10;
 }
 
 .main-content-wrapper {

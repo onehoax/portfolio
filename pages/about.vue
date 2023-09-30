@@ -7,7 +7,8 @@
         <span class="font-semibold">DRY </span> (Don't Repeat Yourself) are 2 principles that I apply in every aspect of
         my life. I am an avid learner of different technologies and disciplines; I strive to apply my knowledge and
         experience to self-improvement and the betterment of humanity. I love programming because even though it is very
-        logical, it is also a form of art through its infinite layers of abstraction.
+        logical, it is also a form of art through its infinite layers of abstraction. I am from Colombia and am
+        currently residing in it, but I live in Toronto, Canada for over 15 years.
       </p>
 
       <h2 class="content-heading mt-6">Software Development</h2>
@@ -16,7 +17,7 @@
         field, it was not what I wanted to do for the rest of my life. Therefore I decided to go back to University to
         go into Software Development. I completed a Bachelor of Computer Science in 2 years and 1/2 at York University
         (TO, CA). Shortly after graduation, I got into a Data Engineering organization, which then connected me to CIBC
-        (Canadian Imperial Bank of Commerce ), where I worked for over 1 year and 1/2 as a Full-Stack Developer. I left
+        (Canadian Imperial Bank of Commerce ), where I worked for a couple of years as a Full-Stack Developer. I left
         CIBC as I was moving back to Colombia and have been working independently ever since. I have worked with various
         technologies throughout my career, but I have mostly used Linux, Java, TypeScript/JavaScript, RDBMSs, and web
         technologies. I am currently submerged in the web world, specifically using PostgreSQL, Prisma, TypeScript,

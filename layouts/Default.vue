@@ -55,7 +55,7 @@
       <footer class="h-16 absolute bottom-0 w-full bg-stone-200 shadow-xl shadow-black">
         <nav class="flex justify-center items-center mx-4 pt-4">
           <NuxtLink :href="email" class="mx-4">
-            <PaperAirplaneIcon class="footer-icon" />
+            <PaperAirplaneIcon class="base-icon h-6 hover:text-stone-700" />
           </NuxtLink>
           <NuxtLink :to="github" target="_blank" class="mx-4">
             <svg
