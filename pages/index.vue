@@ -1,5 +1,5 @@
 <template>
-  <MainContent title="Software Developer">
+  <MainContent title="Intro">
     <MainCard :page="cards[0].to" :title="cards[0].title" :description="cards[0].description" class="lg:mt-0">
       <IdentificationIcon class="home-page-icon" />
     </MainCard>
