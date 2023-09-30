@@ -1,7 +1,7 @@
 <template>
   <main>
     <div
-      class="main-content font-semibold tracking-wide uppercase h-56 flex flex-col justify-center items-center text-center"
+      class="main-content font-semibold tracking-wide uppercase h-56 flex flex-col justify-center items-center text-center overflow-auto"
     >
       <p>{{ project.description }}</p>
       <p class="mt-4">{{ project.stack }}</p>
@@ -9,7 +9,7 @@
       <nav class="flex justify-center items-center mx-4 pt-4">
         <NuxtLink :to="project.ghUrl" target="_blank" class="mx-4">
           <svg
-            class="h-11 w-11 fill-current text-stone-500 px-0 hover:text-stone-700"
+            class="h-9 sm:h-11 fill-current text-stone-500 px-0 hover:text-stone-700"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -20,7 +20,7 @@
         </NuxtLink>
         <NuxtLink v-if="project.site !== ''" :to="project.site" target="_blank" class="mx-4">
           <svg
-            class="h-8 w-8 fill-current text-stone-500 px-0 hover:text-stone-700"
+            class="h-7 sm:h-8 fill-current text-stone-500 px-0 hover:text-stone-700"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >

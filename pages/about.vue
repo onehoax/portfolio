@@ -1,18 +1,13 @@
 <template>
   <MainContent title="About">
     <div class="main-content">
-      <h2 class="content-heading">Professional</h2>
+      <h2 class="content-heading">General</h2>
       <p class="mt-4">
-        I am a Full-Stack TypeScript Developer with experience in the banking industry and a variety of other fields; I
-        design and implement Full-Stack Progressive Web App (PWA) solutions following agile methodologies.
-      </p>
-      <h2 class="content-heading mt-6">General</h2>
-      <p class="mt-4">
-        My name is Carlos Andres Osorio. I was born in Colombia but moved to Toronto, Canada in 2006. I lived in Toronto
-        for over 15 years, then moved back to Colombia in 2023, and am currently residing in it. I am very passionate
-        about technology in general and how it can be used to improve our lives and help the world. I specifically love
-        programming because even though it is very logical, it is also a form of art through its infinite layers of
-        abstraction.
+        <span class="font-semibold">KISS </span>(Keep It Simple Stupid) and
+        <span class="font-semibold">DRY </span> (Don't Repeat Yourself) are 2 principles that I apply in every aspect of
+        my life. I am an avid learner of different technologies and disciplines; I strive to apply my knowledge and
+        experience to self-improvement and the betterment of humanity. I love programming because even though it is very
+        logical, it is also a form of art through its infinite layers of abstraction.
       </p>
 
       <h2 class="content-heading mt-6">Software Development</h2>
@@ -23,7 +18,7 @@
         (TO, CA). Shortly after graduation, I got into a Data Engineering organization, which then connected me to CIBC
         (Canadian Imperial Bank of Commerce ), where I worked for over 1 year and 1/2 as a Full-Stack Developer. I left
         CIBC as I was moving back to Colombia and have been working independently ever since. I have worked with various
-        technologies throughout my career, but I have mostly used Java, TypeScript/JavaScript, RDBMSs, and web
+        technologies throughout my career, but I have mostly used Linux, Java, TypeScript/JavaScript, RDBMSs, and web
         technologies. I am currently submerged in the web world, specifically using PostgreSQL, Prisma, TypeScript,
         Node, Nest, Nuxt, and Tailwind to design and implement Full-Stack PWA solutions following agile methodologies.
       </p>

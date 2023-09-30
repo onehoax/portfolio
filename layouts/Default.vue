@@ -3,7 +3,7 @@
     <div class="mt-2 md:col-span-1 md:flex md:justify-end">
       <header>
         <div class="flex justify-between items-center">
-          <h1 class="base-heading-link text-xl p-4 border-b border-gray-100 truncate">
+          <h1 class="base-heading-link text-xl xl:text-3xl p-4 border-b border-gray-100 truncate">
             <NuxtLink to="/">Andres Osorio</NuxtLink>
           </h1>
           <button class="z-20 mx-4 md:hidden" @click="toggleOpen()">
