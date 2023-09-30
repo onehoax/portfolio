@@ -9,11 +9,11 @@
     <MainCard :page="cards[2].to" :title="cards[2].title" :description="cards[2].description" class="mt-4">
       <CommandLineIcon class="home-page-icon" />
     </MainCard>
-    <MainCard :page="cards[3].to" :title="cards[3].title" :description="cards[3].description" class="mt-4">
-      <InformationCircleIcon class="home-page-icon" />
-    </MainCard>
     <MainCard :page="cards[4].to" :title="cards[4].title" :description="cards[4].description" class="mt-4">
       <EnvelopeIcon class="home-page-icon" />
+    </MainCard>
+    <MainCard :page="cards[3].to" :title="cards[3].title" :description="cards[3].description" class="mt-4">
+      <InformationCircleIcon class="home-page-icon" />
     </MainCard>
   </MainContent>
 </template>
