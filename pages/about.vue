@@ -8,7 +8,7 @@
         my life. I am an avid learner of different technologies and disciplines; I strive to apply my knowledge and
         experience to self-improvement and the betterment of humanity. I love programming because even though it is very
         logical, it is also a form of art through its infinite layers of abstraction. I am from Colombia and am
-        currently residing in it, but I live in Toronto, Canada for over 15 years.
+        currently residing in it, but I lived in Toronto, Canada for over 15 years.
       </p>
 
       <h2 class="content-heading mt-6">Software Development</h2>
@@ -31,7 +31,7 @@
         eventually decided to transition into software, I am glad to say that I positively impacted the lives of all my
         clients by raising their quality of life through behavior modification. Throughout my time in this field, I also
         had the opportunity to work in places like the University Health Network (UHN) and the Centre for Addiction and
-        Mental Health (CAMH), which taught me many valuable life lessons.
+        Mental Health (CAMH), which taught me many invaluable life lessons.
       </p>
     </div>
   </MainContent>

@@ -29,7 +29,7 @@
       <div class="text-center">
         <NuxtLink to="/contact">
           <button
-            class="p-2 mt-6 uppercase font-semibold bg-stone-200 shadow-md rounded-lg hover:bg-red-400 hover:text-white transition ease-out duration-300"
+            class="p-2 mt-6 uppercase font-semibold shadow-md rounded-lg bg-red-400 text-white sm:text-stone-500 sm:bg-stone-200 sm:hover:bg-red-400 sm:hover:text-white transition ease-out duration-300"
           >
             More Information
           </button>
