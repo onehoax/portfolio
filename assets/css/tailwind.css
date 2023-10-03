@@ -39,6 +39,10 @@
   @apply font-bold text-xl sm:text-2xl border-b border-stone-200 pb-2;
 }
 
+.content-subheading {
+  @apply font-semibold text-lg sm:text-xl;
+}
+
 .content-title {
   @apply mx-14 mt-10 text-stone-700 text-4xl sm:text-6xl font-semibold truncate border-b  pb-2;
 }
