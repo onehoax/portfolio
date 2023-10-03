@@ -27,11 +27,13 @@
         side. I specialize in Full-Stack TypeScript development using Node for the back-end and Vue for the front-end.
       </p>
       <div class="text-center">
-        <button
-          class="p-2 mt-6 uppercase font-semibold bg-stone-200 shadow-md rounded-lg hover:bg-red-400 hover:text-white transition ease-out duration-300"
-        >
-          <NuxtLink to="/contact"> More Information </NuxtLink>
-        </button>
+        <NuxtLink to="/contact">
+          <button
+            class="p-2 mt-6 uppercase font-semibold bg-stone-200 shadow-md rounded-lg hover:bg-red-400 hover:text-white transition ease-out duration-300"
+          >
+            More Information
+          </button>
+        </NuxtLink>
       </div>
     </div>
   </MainContent>
