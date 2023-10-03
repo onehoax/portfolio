@@ -24,27 +24,27 @@
 }
 
 .home-page-icon {
-  @apply base-icon h-8 sm:h-10;
+  @apply base-icon h-6 sm:h-10;
 }
 
 .main-content-wrapper {
-  @apply absolute p-2 mx-10 mt-3 overflow-y-auto h-3/4 left-0 right-0;
+  @apply absolute p-2 mx-10 mt-3 overflow-y-auto h-2/3 sm:h-3/4 left-0 right-0;
 }
 
 .main-content {
-  @apply text-sm sm:text-lg p-4 leading-7 rounded-md border-r-2 border-b-2 hover:shadow-lg hover:text-stone-700 hover:bg-stone-50 transition ease-out duration-500;
+  @apply text-sm sm:text-lg p-4 sm:leading-7 rounded-md border-r-2 border-b-2 hover:shadow-lg hover:text-stone-700 hover:bg-stone-50 transition ease-out duration-500;
 }
 
 .content-heading {
-  @apply font-bold text-xl sm:text-2xl border-b border-stone-200 pb-2;
+  @apply font-bold leading-tight text-lg sm:text-2xl border-b border-stone-200 pb-2;
 }
 
 .content-subheading {
-  @apply font-semibold text-lg sm:text-xl;
+  @apply font-semibold text-base sm:text-xl;
 }
 
 .content-title {
-  @apply mx-14 mt-10 text-stone-700 text-4xl sm:text-6xl font-semibold truncate border-b  pb-2;
+  @apply mx-14 mt-10 text-stone-700 text-3xl sm:text-6xl font-semibold truncate border-b  pb-2;
 }
 
 .content-icon {
