@@ -13,62 +13,13 @@
         <li>Responsible, organized, disciplined, hard-working, fast learner, and goal-oriented</li>
       </ul>
       <h2 class="content-heading mt-6">Experience <BriefcaseIcon class="content-icon" /></h2>
-      <h3 class="content-subheading mt-4">Freelance Software Developer</h3>
-      <h4 class="font-medium">Self-Employed</h4>
-      <p>Jul 2022 - Present (1 year 3 months)</p>
-      <ul class="list-disc pl-5 mt-4">
-        <li>Applied agile methodologies to continuously revise product requirements based on client feedback</li>
-        <li>Successfully designed, implemented, and delivered excellent quality products on time and without bugs</li>
-        <li>
-          Developed Full-Stack solutions with TypeScript, NodeJS, ExpressJS, NestJS, VueJS, NuxtJS, Prisma ORM, and
-          PostgreSQL
-        </li>
-      </ul>
-      <h3 class="content-subheading mt-4">Full-Stack Developer</h3>
-      <h4 class="font-medium">CIBC</h4>
-      <p>Jan 2021 - Jul 2022 (1 year 7 months)</p>
-      <ul class="list-disc pl-5 mt-4">
-        <li>Lead Developer/SME for an internal background screening application</li>
-        <li>
-          Successfully designed, implemented, and delivered solutions to mitigate security risks identified in the
-          application on time and with no bugs; led a team of Senior Developers to accomplish this
-        </li>
-        <li>
-          Coordinated with internal and external teams to prioritize projects/tasks and deliver excellent quality
-          products on time
-        </li>
-        <li>
-          Participated in agile best practices through daily stand-up meetings, JIRA boards/tickets, and development
-          based on continuous requirement revision
-        </li>
-        <li>
-          Developed on top of a NICE Actimize product involving work with HTML/CSS, XSL, JavaScript, Java (Maven, Spring
-          Boot, Microservices, JBoss), Oracle DB, NiFi, BASH, Git, Hadoop, and Linux
-        </li>
-      </ul>
-      <h3 class="content-subheading mt-4">Data Engineer Associate</h3>
-      <h4 class="font-medium">Jarvis Consulting Group</h4>
-      <p>Jun 2020 - Jan 2021 (8 months)</p>
-      <ul class="list-disc pl-5 mt-4">
-        <li>
-          Developed Data Engineering projects through continuous participation in scrum events and agile best practices
-        </li>
-        <li>
-          Implemented projects using Java, Maven, Spring Boot, Bash, Python, RDBMS/SQL, Git, Hadoop, Spark/Scala,
-          Docker, and Kubernetes; performed both integration and unit testing for each project using JUnit and Mockito
-        </li>
-        <li>Used a Linux environment (CentOS) for development</li>
-      </ul>
-      <h3 class="content-subheading mt-4">Teaching & Behavior Modification</h3>
-      <h4 class="font-medium">Various</h4>
-      <p>Jan 2009 - Sep 2017 (8 years 9 months)</p>
-      <ul class="list-disc pl-5 mt-4">
-        <li>
-          Successfully improved lives of clients with autism and other developmental disorders through application of
-          behavior modification techniques
-        </li>
-        <li>Taught ESL to students of all ages and groups of all sizes</li>
-      </ul>
+      <ExperienceItem
+        v-for="item in experienceItems"
+        :position="item.position"
+        :company="item.company"
+        :period="item.period"
+        :description-items="item.items"
+      />
       <h2 class="content-heading mt-6">Education <AcademicCapIcon class="content-icon" /></h2>
       <h3 class="content-subheading mt-4">York University</h3>
       <h4 class="font-medium">Bachelor of Arts - BA, Computer Science</h4>
@@ -91,27 +42,8 @@
         PostgreSQL, OracleDB, GitHub, Docker, Maven, SpringBoot
       </p>
       <p class="mt-4"><span class="content-subheading">Other: </span>Cloud, Haskell, Blockchain</p>
-      <h2 class="content-heading mt-6">
-        Licenses & Certifications <ClipboardDocumentCheckIcon class="content-icon" />
-      </h2>
-      <div class="mt-4">
-        <NuxtLink to="https://www.educative.io/verify-certificate/qjv3oKCRgNn3lLDLmIqomv8MQNJ7FK" target="_blank">
-          Become a VueJS Developer - <span class="font-medium">Educative.io</span>
-        </NuxtLink>
-      </div>
-      <div class="mt-4">
-        <NuxtLink to="https://www.educative.io/verify-certificate/zmG3AWTnllm0NXgqqCB1mMqVgoAnh7" target="_blank">
-          JavaScript in Detail: From Beginner to Advanced - <span class="font-medium">Educative.io</span>
-        </NuxtLink>
-      </div>
-      <div class="mt-4">
-        <NuxtLink
-          to="https://www.codecademy.com/profiles/OneHoax/certificates/84f728978e434c02a78abaa0baca0d6c"
-          target="_blank"
-        >
-          Learn Intermediate TypeScript - <span class="font-medium">Codecademy</span>
-        </NuxtLink>
-      </div>
+      <h2 class="content-heading mt-6">Certifications <ClipboardDocumentCheckIcon class="content-icon" /></h2>
+      <CertificateItem v-for="cert in certs" :site="cert.site" :name="cert.name" :institution="cert.institution" />
       <h2 class="content-heading mt-6">Honors & Awards <EllipsisHorizontalCircleIcon class="content-icon" /></h2>
       <h3 class="content-subheading mt-4">Chair's Honour Roll</h3>
       <h4 class="font-medium">York University</h4>
@@ -135,4 +67,66 @@ import {
   ClipboardDocumentCheckIcon,
   EllipsisHorizontalCircleIcon
 } from "@heroicons/vue/24/solid";
+
+const certs = [
+  {
+    site: "https://www.educative.io/verify-certificate/qjv3oKCRgNn3lLDLmIqomv8MQNJ7FK",
+    name: "Become a VueJS Developer",
+    institution: "Educative.io"
+  },
+  {
+    site: "https://www.educative.io/verify-certificate/zmG3AWTnllm0NXgqqCB1mMqVgoAnh7",
+    name: "JavaScript in Detail: From Beginner to Advanced",
+    institution: "Educative.io"
+  },
+  {
+    site: "https://www.codecademy.com/profiles/OneHoax/certificates/84f728978e434c02a78abaa0baca0d6c",
+    name: "Learn Intermediate TypeScript",
+    institution: "Codecademy"
+  }
+];
+
+const experienceItems = [
+  {
+    position: "Freelance Software Developer",
+    company: "Self-Employed",
+    period: "Jul 2022 - Present (1 year 3 months)",
+    items: [
+      "Applied agile methodologies to continuously revise product requirements based on client feedback and adjust development accordingly",
+      "Successfully designed, implemented, and delivered excellent quality products on time ",
+      "Developed Full-Stack solutions with TypeScript, NodeJS, ExpressJS, NestJS, VueJS, NuxtJS, Prisma ORM, and PostgreSQL"
+    ]
+  },
+  {
+    position: "Full-Stack Developer",
+    company: "CIBC",
+    period: "Jan 2021 - Jul 2022 (1 year 7 months)",
+    items: [
+      "Lead Developer/SME for an internal background screening application",
+      "Successfully designed, implemented, and delivered solutions to mitigate security risks identified in the application on time and with no bugs; led a team of Senior Developers to accomplish this",
+      "Coordinated with internal and external teams to prioritize projects/tasks and deliver excellent quality products on time",
+      "Participated in agile best practices through daily stand-up meetings, JIRA boards/tickets, and development based on continuous requirement revision",
+      "Developed on top of a NICE Actimize product involving work with HTML/CSS, XSL, JavaScript, Java (Maven, Spring Boot, Microservices, JBoss), Oracle DB, NiFi, BASH, Git, Hadoop, and Linux"
+    ]
+  },
+  {
+    position: "Data Engineer Associate",
+    company: "Jarvis Consulting Group",
+    period: "Jun 2020 - Jan 2021 (8 months)",
+    items: [
+      "Developed Data Engineering projects through continuous participation in scrum events and agile best practices",
+      "Implemented projects using Java, Maven, Spring Boot, Bash, Python, RDBMS/SQL, Git, Hadoop, Spark/Scala, Docker, and Kubernetes; performed both integration and unit testing for each project using JUnit and Mockito",
+      "Used a Linux environment (CentOS) for development"
+    ]
+  },
+  {
+    position: "Teaching & Behavior Modification",
+    company: "Various",
+    period: "Jan 2009 - Sep 2017 (8 years 9 months)",
+    items: [
+      "Successfully improved lives of clients with autism and other developmental disorders through application of behavior modification techniques",
+      "Taught ESL to students of all ages and groups of all sizes"
+    ]
+  }
+];
 </script>
