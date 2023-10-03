@@ -9,7 +9,7 @@
           delivered solutions to mitigate critical security risks
         </li>
         <li>3+ years of Software Development experience</li>
-        <li>12 years of total experience in teaching, behavior modification, and a variety of environments</li>
+        <li>9 years of experience in teaching, behavior modification, and a variety of environments</li>
         <li>Responsible, organized, disciplined, hard-working, fast learner, and goal-oriented</li>
       </ul>
       <h2 class="content-heading mt-6">Experience <BriefcaseIcon class="content-icon" /></h2>
