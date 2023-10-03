@@ -47,6 +47,10 @@
   @apply mx-14 mt-10 text-stone-700 text-4xl sm:text-6xl font-semibold truncate border-b  pb-2;
 }
 
+.content-icon {
+  @apply h-5 sm:h-7 inline-block ml-2 mb-1;
+}
+
 /* ==================== Scrollbar ====================
 
 /* width */

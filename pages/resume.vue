@@ -1,7 +1,7 @@
 <template>
   <MainContent title="Resume">
     <div class="main-content">
-      <h2 class="content-heading">Summary</h2>
+      <h2 class="content-heading">Summary <ClipboardDocumentListIcon class="content-icon" /></h2>
       <ul class="list-disc pl-5 mt-4">
         <li>Full-Stack TypeScript Developer with experience in Java, Data Engineering, and the banking industry</li>
         <li>
@@ -12,7 +12,7 @@
         <li>12 years of total experience in teaching, behavior modification, and a variety of environments</li>
         <li>Responsible, organized, disciplined, hard-working, fast learner, and goal-oriented</li>
       </ul>
-      <h2 class="content-heading mt-6">Experience</h2>
+      <h2 class="content-heading mt-6">Experience <BriefcaseIcon class="content-icon" /></h2>
       <h3 class="content-subheading mt-4">Freelance Software Developer</h3>
       <h4 class="font-medium">Self-Employed</h4>
       <p>Jul 2022 - Present (1 year 3 months)</p>
@@ -69,14 +69,14 @@
         </li>
         <li>Taught ESL to students of all ages and groups of all sizes</li>
       </ul>
-      <h2 class="content-heading mt-6">Education</h2>
+      <h2 class="content-heading mt-6">Education <AcademicCapIcon class="content-icon" /></h2>
       <h3 class="content-subheading mt-4">York University</h3>
       <h4 class="font-medium">Bachelor of Arts - BA, Computer Science</h4>
       <p>Sep 2017 - Dec 2019</p>
       <h3 class="content-subheading mt-4">George Brown College</h3>
       <h4 class="font-medium">Ontario College Advanced Diploma with Honours, Behavioral Science Technology</h4>
       <p>Jan 2012 - Dec 2014</p>
-      <h2 class="content-heading mt-6">Skills</h2>
+      <h2 class="content-heading mt-6">Skills <CommandLineIcon class="content-icon" /></h2>
       <p class="mt-4">
         <span class="content-subheading">Concepts: </span>
         OOP/FP, RDBMS/NoSQL, Design Patterns, Full-Stack Web Dev, Microservices, RESTful APIs, Containerization, Agile,
@@ -91,7 +91,9 @@
         PostgreSQL, OracleDB, GitHub, Docker, Maven, SpringBoot
       </p>
       <p class="mt-4"><span class="content-subheading">Other: </span>Cloud, Haskell, Blockchain</p>
-      <h2 class="content-heading mt-6">Licenses & Certifications</h2>
+      <h2 class="content-heading mt-6">
+        Licenses & Certifications <ClipboardDocumentCheckIcon class="content-icon" />
+      </h2>
       <div class="mt-4">
         <NuxtLink to="https://www.educative.io/verify-certificate/qjv3oKCRgNn3lLDLmIqomv8MQNJ7FK" target="_blank">
           Become a VueJS Developer - <span class="font-medium">Educative.io</span>
@@ -110,7 +112,7 @@
           Learn Intermediate TypeScript - <span class="font-medium">Codecademy</span>
         </NuxtLink>
       </div>
-      <h2 class="content-heading mt-6">Honors & Awards</h2>
+      <h2 class="content-heading mt-6">Honors & Awards <EllipsisHorizontalCircleIcon class="content-icon" /></h2>
       <h3 class="content-subheading mt-4">Chair's Honour Roll</h3>
       <h4 class="font-medium">York University</h4>
       <p>
@@ -124,4 +126,13 @@
   </MainContent>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import {
+  ClipboardDocumentListIcon,
+  BriefcaseIcon,
+  AcademicCapIcon,
+  CommandLineIcon,
+  ClipboardDocumentCheckIcon,
+  EllipsisHorizontalCircleIcon
+} from "@heroicons/vue/24/solid";
+</script>
