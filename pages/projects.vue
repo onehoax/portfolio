@@ -16,7 +16,7 @@ const projects = [
     description: "Personal Website (This Site)",
     stack: "Nuxt, Tailwind",
     ghUrl: "https://github.com/onehoax/portfolio",
-    site: "http://localhost:3000/"
+    site: "https://andresosorio.onrender.com"
   },
   {
     description: "Custom JWT Implementation with asymetric key encryption and some standard options",
