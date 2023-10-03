@@ -77,18 +77,39 @@
       <h4 class="font-medium">Ontario College Advanced Diploma with Honours, Behavioral Science Technology</h4>
       <p>Jan 2012 - Dec 2014</p>
       <h2 class="content-heading mt-6">Skills</h2>
-      <h3 class="content-subheading mt-4">Concepts</h3>
-      <p>
-        OOP/FP, RDBMS/NoSQL, Design Patterns, Full-Stack Web Dev, Microservices, REST APIs, Containerization, Agile, TDD
+      <p class="mt-4">
+        <span class="content-subheading">Concepts: </span>
+        OOP/FP, RDBMS/NoSQL, Design Patterns, Full-Stack Web Dev, Microservices, RESTful APIs, Containerization, Agile,
+        TDD
       </p>
-      <h3 class="content-subheading mt-4">Languages</h3>
-      <p>TypeScript, JavaScript, Java, SQL, Bash, Git, HTML/CSS</p>
-      <h3 class="content-subheading mt-4">Frameworks</h3>
-      <p>
-        NodeJS, ExpressJS, NestJS, VueJS, NuxtJS, Prisma ORM, PostgreSQL, OracleDB, GitHub, Docker, Maven, SpringBoot
+      <p class="mt-4">
+        <span class="content-subheading">Languages: </span>
+        TypeScript, JavaScript, Java, SQL, Bash, Git, HTML/CSS
       </p>
-      <h3 class="content-subheading mt-4">Other</h3>
-      <p>Cloud, Haskell, Blockchain</p>
+      <p class="mt-4">
+        <span class="content-subheading">Frameworks: </span>NodeJS, ExpressJS, NestJS, VueJS, NuxtJS, Prisma ORM,
+        PostgreSQL, OracleDB, GitHub, Docker, Maven, SpringBoot
+      </p>
+      <p class="mt-4"><span class="content-subheading">Other: </span>Cloud, Haskell, Blockchain</p>
+      <h2 class="content-heading mt-6">Licenses & Certifications</h2>
+      <div class="mt-4">
+        <NuxtLink to="https://www.educative.io/verify-certificate/qjv3oKCRgNn3lLDLmIqomv8MQNJ7FK" target="_blank">
+          Become a VueJS Developer - <span class="font-medium">Educative.io</span>
+        </NuxtLink>
+      </div>
+      <div class="mt-4">
+        <NuxtLink to="https://www.educative.io/verify-certificate/zmG3AWTnllm0NXgqqCB1mMqVgoAnh7" target="_blank">
+          JavaScript in Detail: From Beginner to Advanced - <span class="font-medium">Educative.io</span>
+        </NuxtLink>
+      </div>
+      <div class="mt-4">
+        <NuxtLink
+          to="https://www.codecademy.com/profiles/OneHoax/certificates/84f728978e434c02a78abaa0baca0d6c"
+          target="_blank"
+        >
+          Learn Intermediate TypeScript - <span class="font-medium">Codecademy</span>
+        </NuxtLink>
+      </div>
       <h2 class="content-heading mt-6">Honors & Awards</h2>
       <h3 class="content-subheading mt-4">Chair's Honour Roll</h3>
       <h4 class="font-medium">York University</h4>

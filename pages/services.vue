@@ -10,6 +10,11 @@
         function, just on different platforms. Because a PWA is developed using web technologies, it is platform
         agnostic; therefore you develop a single product that serves both as the website and as the mobile app.
       </p>
+      <h2 class="content-heading mt-6">RESTful APIs</h2>
+      <p class="mt-4">
+        Integrations between different systems are essential for the success of any product; a RESTful API is a bridge
+        between different services so they can communicate appropriately.
+      </p>
       <h2 class="content-heading mt-6">Web Sites</h2>
       <p class="mt-4">
         A PWA is suitable for products that are meant to work as applications, meaning they are highly functional and

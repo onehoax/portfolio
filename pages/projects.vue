@@ -62,12 +62,6 @@ const projects = [
     site: ""
   },
   {
-    description: "Mock Responsive Restaurant UI",
-    stack: "Nuxt, Tailwind",
-    ghUrl: "https://github.com/onehoax/restaurant_ui",
-    site: ""
-  },
-  {
     description: "Mock Portfolio Site",
     stack: "HTML, CSS, JS",
     ghUrl: "https://github.com/onehoax/gallery_portfolio",
