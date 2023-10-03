@@ -1,6 +1,6 @@
 <template>
   <MainContent title="Contact">
-    <div class="main-content truncate lg:w-2/3 lg:mx-auto">
+    <div class="main-content break-words lg:w-2/3 lg:mx-auto">
       <NuxtLink href="mailto:andres.osoriogr@gmail.com ">
         <h2 class="content-heading">
           <PaperAirplaneIcon class="h-6 sm:h-7 text-stone-700 inline-block pb-1.5 px-1.5" />
