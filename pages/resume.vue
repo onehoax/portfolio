@@ -38,8 +38,8 @@
         TypeScript, JavaScript, Java, SQL, Bash, Git, HTML/CSS
       </p>
       <p class="mt-4">
-        <span class="content-subheading">Frameworks: </span>NodeJS, ExpressJS, NestJS, VueJS, NuxtJS, Prisma ORM,
-        PostgreSQL, OracleDB, GitHub, Docker, Maven, SpringBoot
+        <span class="content-subheading">Frameworks: </span>NodeJS, ExpressJS, NestJS, VueJS, NuxtJS, Tailwind CSS,
+        Prisma ORM, PostgreSQL, Oracle DB, GitHub, Docker, Maven, Spring Boot
       </p>
       <p class="mt-4"><span class="content-subheading">Other: </span>Cloud, Haskell, Blockchain</p>
       <h2 class="content-heading mt-6">Certifications <ClipboardDocumentCheckIcon class="content-icon" /></h2>
@@ -94,7 +94,7 @@ const experienceItems = [
     items: [
       "Applied agile methodologies to continuously revise product requirements based on client feedback and adjust development accordingly",
       "Successfully designed, implemented, and delivered excellent quality products on time ",
-      "Developed Full-Stack solutions with TypeScript, NodeJS, ExpressJS, NestJS, VueJS, NuxtJS, Prisma ORM, and PostgreSQL"
+      "Developed Full-Stack solutions with Prisma ORM, PostgreSQL, TypeScript, NodeJS, ExpressJS, NestJS, VueJS, NuxtJS, and Tailwind CSS"
     ]
   },
   {
