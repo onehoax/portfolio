@@ -3,13 +3,14 @@
     <div class="main-content">
       <h2 class="content-heading">Summary <ClipboardDocumentListIcon class="content-icon" /></h2>
       <ul class="list-disc pl-5 mt-4">
-        <li>Full-Stack TypeScript Developer with experience in Java, Data Engineering, and the banking industry</li>
+        <li>Full Stack TypeScript Developer with experience in Java and Data Engineering</li>
         <li>
-          Led an internal background screening application at a Canadian Bank; successfully designed, implemented, and
-          delivered solutions to mitigate critical security risks
+          Led the development and operations of a background screening application in the Core Protection Technology
+          unit of a major Canadian Bank
         </li>
         <li>3+ years of Software Development experience</li>
         <li>9 years of experience in teaching, behavior modification, and a variety of environments</li>
+        <li>Excellent communication skills</li>
         <li>Responsible, organized, disciplined, hard-working, fast learner, and goal-oriented</li>
       </ul>
       <h2 class="content-heading mt-6">Experience <BriefcaseIcon class="content-icon" /></h2>
@@ -30,7 +31,7 @@
       <h2 class="content-heading mt-6">Skills <CommandLineIcon class="content-icon" /></h2>
       <p class="mt-4">
         <span class="content-subheading">Concepts: </span>
-        OOP/FP, RDBMS/NoSQL, Design Patterns, Full-Stack Web Dev, Microservices, RESTful APIs, Containerization, Agile,
+        OOP/FP, RDBMS/NoSQL, Design Patterns, Full Stack Web Dev, Microservices, RESTful APIs, Containerization, Agile,
         TDD
       </p>
       <p class="mt-4">
@@ -88,22 +89,22 @@ const certs = [
 
 const experienceItems = [
   {
-    position: "Freelance Software Developer",
+    position: "Full Stack Developer",
     company: "Self-Employed",
     period: "Jul 2022 - Present (1 year 3 months)",
     items: [
-      "Applied agile methodologies to continuously revise product requirements based on client feedback and adjust development accordingly",
-      "Successfully designed, implemented, and delivered excellent quality products on time ",
-      "Developed Full-Stack solutions with Prisma ORM, PostgreSQL, TypeScript, NodeJS, ExpressJS, NestJS, VueJS, NuxtJS, and Tailwind CSS"
+      "Applied agile methodologies to develop solutions based on continuous requirement revision and client feedback",
+      "Successfully designed, coordinated, implemented, and delivered excellent quality products on time",
+      "Developed Full Stack solutions with PostgreSQL, Prisma ORM, TypeScript, NodeJS, ExpressJS, NestJS, VueJS, NuxtJS, and Tailwind CSS"
     ]
   },
   {
-    position: "Full-Stack Developer",
+    position: "Full Stack Developer",
     company: "CIBC",
     period: "Jan 2021 - Jul 2022 (1 year 7 months)",
     items: [
-      "Lead Developer/SME for an internal background screening application",
-      "Successfully designed, implemented, and delivered solutions to mitigate security risks identified in the application on time and with no bugs; led a team of Senior Developers to accomplish this",
+      "Lead Developer/SME for a background screening application in the Core Protection Technology unit",
+      "Successfully designed, coordinated, implemented, and delivered solutions to mitigate critical security risks identified in the application on time and with no bugs; led a team of Senior Developers to accomplish this",
       "Coordinated with internal and external teams to prioritize projects/tasks and deliver excellent quality products on time",
       "Participated in agile best practices through daily stand-up meetings, JIRA boards/tickets, and development based on continuous requirement revision",
       "Developed on top of a NICE Actimize product involving work with HTML/CSS, XSL, JavaScript, Java (Maven, Spring Boot, Microservices, JBoss), Oracle DB, NiFi, BASH, Git, Hadoop, and Linux"

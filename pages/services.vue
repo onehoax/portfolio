@@ -3,7 +3,7 @@
     <div class="main-content">
       <h2 class="content-heading">Progressive Web Apps</h2>
       <p class="mt-4">
-        I design and implement Full-Stack Progressive Web App (PWA) solutions. A PWA is basically a website that can
+        I design and implement Full Stack Progressive Web App (PWA) solutions. A PWA is basically a website that can
         behave as a mobile application, as well. This eliminates the need to develop separate systems for the same
         product to target different platforms. E.g.: in the past, a website would usually be accompanied by a
         corresponding Android and iOS app, resulting in a total of 3 separate systems, which accomplish the same
@@ -24,7 +24,7 @@
       <h2 class="content-heading mt-6">General Software Development</h2>
       <p class="mt-4">
         TypeScript/JavaScript can be used for virtually anything since it can be used both on the server and client
-        side. I specialize in Full-Stack TypeScript development using Node for the back-end and Vue for the front-end.
+        side. I specialize in Full Stack TypeScript development using Node for the back-end and Vue for the front-end.
       </p>
       <div class="text-center">
         <NuxtLink to="/contact">
