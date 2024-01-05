@@ -24,7 +24,8 @@
       <h2 class="content-heading mt-6">General Software Development</h2>
       <p class="mt-4">
         TypeScript/JavaScript can be used for virtually anything since it can be used both on the server and client
-        side. I specialize in Full Stack TypeScript development using Node for the back-end and Vue for the front-end.
+        side. I specialize in Full Stack TypeScript development using Nest for the back-end and Angular for the
+        front-end.
       </p>
       <div class="text-center">
         <NuxtLink to="/contact">

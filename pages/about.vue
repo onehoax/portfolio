@@ -20,8 +20,9 @@
         (Canadian Imperial Bank of Commerce ), where I worked for a couple of years as a Full Stack Developer. I left
         CIBC as I was moving back to Colombia and have been working independently ever since. I have worked with various
         technologies throughout my career, but I have mostly used Linux, Java, TypeScript/JavaScript, RDBMSs, and web
-        technologies. I am currently submerged in the web world, specifically using PostgreSQL, Prisma, TypeScript,
-        Node, Nest, Nuxt, and Tailwind to design and implement Full Stack PWA solutions following agile methodologies.
+        technologies. I am currently submerged in the web world, specifically using PostgreSQL, Prisma, MongoDB,
+        TypeScript, Node, Nest, Angular, and Tailwind to design and implement Full Stack PWA solutions following agile
+        methodologies.
       </p>
       <h2 class="content-heading mt-6">Behavioral Science</h2>
       <p class="mt-4">

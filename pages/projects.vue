@@ -8,7 +8,7 @@
 const projects = [
   {
     description: "PWA for internal workings of specialized gym, Moviemiento Alpha",
-    stack: "PostgreSQL, Prisma, TypeScript, Node, Nest, Nuxt, Tailwind",
+    stack: "MongoDB, TypeScript, Node, Nest, Angular, Tailwind",
     ghUrl: "https://github.com/onehoax/alpha ",
     site: ""
   },
