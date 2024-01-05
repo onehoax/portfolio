@@ -95,7 +95,7 @@ const experienceItems = [
     items: [
       "Applied agile methodologies to develop solutions based on continuous requirement revision and client feedback",
       "Successfully designed, coordinated, implemented, and delivered excellent quality products on time",
-      "Developed Full Stack solutions with PostgreSQL, Prisma ORM, MongoDB, TypeScript, NodeJS, ExpressJS, NestJS, VueJS, Angular, and Tailwind CSS"
+      "Developed Full Stack solutions with PostgreSQL, Prisma ORM, MongoDB, Docker, TypeScript, NodeJS, ExpressJS, NestJS, VueJS, Angular, and Tailwind CSS"
     ]
   },
   {
