@@ -8,7 +8,7 @@
           Led the development and operations of a background screening application in the Core Protection Technology
           unit of a major Canadian Bank
         </li>
-        <li>3+ years of Software Development experience</li>
+        <li>4 years of Software Development experience</li>
         <li>9 years of experience in teaching, behavior modification, and a variety of environments</li>
         <li>Excellent communication skills</li>
         <li>Responsible, organized, disciplined, hard-working, fast learner, and goal-oriented</li>
