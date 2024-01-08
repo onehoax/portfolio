@@ -91,7 +91,7 @@ const experienceItems = [
   {
     position: "Full Stack Developer",
     company: "Self-Employed",
-    period: "Jul 2022 - Present (1 year 3 months)",
+    period: "Jul 2022 - Present (1 year 7 months)",
     items: [
       "Applied agile methodologies to develop solutions based on continuous requirement revision and client feedback",
       "Successfully designed, coordinated, implemented, and delivered excellent quality products on time",
