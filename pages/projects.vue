@@ -9,7 +9,32 @@ const projects = [
   {
     description: "PWA for internal workings of specialized gym, Moviemiento Alpha",
     stack: "MongoDB, Docker, TypeScript, Node, Nest, Angular, Tailwind",
-    ghUrl: "https://github.com/onehoax/alpha ",
+    ghUrl: "https://github.com/onehoax/alpha",
+    site: ""
+  },
+  {
+    description: "RESTful API: PostgreSQL, Docker, TypeORM",
+    stack: "PostgreSQL, Docker, TypeORM, TypeScript, Node, Nest, Swagger, JWT",
+    ghUrl: "https://github.com/onehoax/inlaze_be",
+    site: ""
+  },
+  {
+    description: "Angular App",
+    stack: "Angular, Tailwind",
+    ghUrl: "https://github.com/onehoax/inlaze_fe",
+    site: ""
+  },
+  {
+    description: "Data Engineering Projects",
+    stack:
+      "Core Java, SpringBoot, Linux, Bash, PostgreSQL, Python, Hadoop, Spark, Docker, Kubernetes, Cloud, OLTP, OLAP",
+    ghUrl: "https://github.com/onehoax/data_engineering ",
+    site: ""
+  },
+  {
+    description: "Implementation of small java-like language",
+    stack: "Visitor Design Pattern, Eiffel Testing Framework (ETF)",
+    ghUrl: "https://github.com/onehoax/language_analyzer",
     site: ""
   },
   {
@@ -19,15 +44,15 @@ const projects = [
     site: "https://andresosorio.onrender.com"
   },
   {
-    description: "Custom JWT Implementation with asymetric key encryption and some standard options",
-    stack: "TypeScript, Node, JWT, Asymetric Key Encryption",
-    ghUrl: "https://github.com/onehoax/custom_jwt",
+    description: "RESTful API: PostgreSQL, Prisma",
+    stack: "Node, Express, TypeScript, PostgreSQL, Prisma",
+    ghUrl: "https://github.com/onehoax/rest_api",
     site: ""
   },
   {
-    description: "RESTful API with PostgreSQL and Prisma",
-    stack: "Node, Express, TypeScript, PostgreSQL, Prisma",
-    ghUrl: "https://github.com/onehoax/rest_api",
+    description: "Custom JWT Implementation with asymetric key encryption and some standard options",
+    stack: "TypeScript, Node, JWT, Asymetric Key Encryption",
+    ghUrl: "https://github.com/onehoax/custom_jwt",
     site: ""
   },
   {
@@ -47,19 +72,6 @@ const projects = [
     stack: "Nuxt, Tailwind",
     ghUrl: "https://github.com/onehoax/nuxt_app",
     site: "https://bespoke-belekoy-307f74.netlify.app/"
-  },
-  {
-    description: "Data Engineering Projects",
-    stack:
-      "Core Java, SpringBoot, Linux, Bash, PostgreSQL, Python, Hadoop, Spark, Docker, Kubernetes, Cloud, OLTP, OLAP",
-    ghUrl: "https://github.com/onehoax/data_engineering ",
-    site: ""
-  },
-  {
-    description: "Implementation of small java-like language",
-    stack: "Visitor Design Pattern, Eiffel Testing Framework (ETF)",
-    ghUrl: "https://github.com/onehoax/language_analyzer",
-    site: ""
   },
   {
     description: "Mock Portfolio Site",
