@@ -7,12 +7,6 @@
 <script setup lang="ts">
 const projects = [
   {
-    description: "PWA for internal workings of specialized gym, Moviemiento Alpha",
-    stack: "MongoDB, Docker, TypeScript, Node, Nest, Angular, Tailwind",
-    ghUrl: "https://github.com/onehoax/alpha",
-    site: ""
-  },
-  {
     description: "RESTful API: PostgreSQL, Docker, TypeORM",
     stack: "PostgreSQL, Docker, TypeORM, TypeScript, Node, Nest, Swagger, JWT",
     ghUrl: "https://github.com/onehoax/inlaze_be",
@@ -32,16 +26,22 @@ const projects = [
     site: ""
   },
   {
-    description: "Implementation of small java-like language",
-    stack: "Visitor Design Pattern, Eiffel Testing Framework (ETF)",
-    ghUrl: "https://github.com/onehoax/language_analyzer",
-    site: ""
-  },
-  {
     description: "Personal Website (This Site)",
     stack: "Nuxt, Tailwind",
     ghUrl: "https://github.com/onehoax/portfolio",
     site: "https://andresosorio.onrender.com"
+  },
+  {
+    description: "Nest + Mongoose POC",
+    stack: "Nest, Mongoose, Docker, Swagger, JWT, Git",
+    ghUrl: "https://github.com/onehoax/nest_mongoose_poc",
+    site: ""
+  },
+  {
+    description: "Implementation of small java-like language",
+    stack: "Visitor Design Pattern, Eiffel Testing Framework (ETF)",
+    ghUrl: "https://github.com/onehoax/language_analyzer",
+    site: ""
   },
   {
     description: "RESTful API: PostgreSQL, Prisma",

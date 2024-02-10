@@ -3,7 +3,8 @@
     <div class="main-content">
       <h2 class="content-heading">Summary <ClipboardDocumentListIcon class="content-icon" /></h2>
       <ul class="list-disc pl-5 mt-4">
-        <li>Full Stack TypeScript Developer with experience in Java and Data Engineering</li>
+        <li>Full Stack Developer with a focus on TypeScript and experience in Java and Data Engineering</li>
+        <li>Led all development and operations at an affiliate marketing startup</li>
         <li>
           Led the development and operations of a background screening application in the Core Protection Technology
           unit of a major Canadian Bank
@@ -12,6 +13,7 @@
         <li>9 years of experience in teaching, behavior modification, and a variety of environments</li>
         <li>Excellent communication skills</li>
         <li>Responsible, organized, disciplined, hard-working, fast learner, and goal-oriented</li>
+        <li>Learning Elixir</li>
       </ul>
       <h2 class="content-heading mt-6">Experience <BriefcaseIcon class="content-icon" /></h2>
       <ExperienceItem
@@ -89,9 +91,24 @@ const certs = [
 
 const experienceItems = [
   {
+    position: "Lead Developer",
+    company: "Inlaze",
+    period: "Nov 2023 - Present",
+    items: [
+      "Lead Developer for all development and operations of this startup",
+      "Successfully designed and executed measures to standardize and enhance development and operation processes to increase the overall reliability of the organization",
+      "Supervised and coordinated several projects and developers of varying levels",
+      "Coordinated with internal and external teams to identify optimal solutions, prioritize projects/tasks, and deliver excellent quality products on time",
+      "Designed and developed the base layer for the administrative part of a CMS in NestJS, Angular, and MongoDB",
+      "Successfully migrated a TypeORM/PostgreSQL database to Mongoose/MongoDB ",
+      "Participated in agile best practices through daily stand-up meetings, JIRA boards/tickets, and development based on continuous requirement revision",
+      "Developed using PostgreSQL, TypeORM, MongoDB, Mongoose, Git, Docker, TypeScript, NodeJS, ExpressJS, NestJS, Angular, PrimeNG, and Tailwind CSS"
+    ]
+  },
+  {
     position: "Full Stack Developer",
     company: "Self-Employed",
-    period: "Jul 2022 - Present (1 year 7 months)",
+    period: "Jul 2022 - Nov 2023",
     items: [
       "Applied agile methodologies to develop solutions based on continuous requirement revision and client feedback",
       "Successfully designed, coordinated, implemented, and delivered excellent quality products on time",
@@ -101,7 +118,7 @@ const experienceItems = [
   {
     position: "Full Stack Developer",
     company: "CIBC",
-    period: "Jan 2021 - Jul 2022 (1 year 7 months)",
+    period: "Jan 2021 - Jul 2022",
     items: [
       "Lead Developer/SME for a background screening application in the Core Protection Technology unit",
       "Successfully designed, coordinated, implemented, and delivered solutions to mitigate critical security risks identified in the application on time and with no bugs; led a team of Senior Developers to accomplish this",
@@ -113,7 +130,7 @@ const experienceItems = [
   {
     position: "Data Engineer Associate",
     company: "Jarvis Consulting Group",
-    period: "Jun 2020 - Jan 2021 (8 months)",
+    period: "Jun 2020 - Jan 2021",
     items: [
       "Developed Data Engineering projects through continuous participation in scrum events and agile best practices",
       "Implemented projects using Java, Maven, Spring Boot, Bash, Python, RDBMS/SQL, Git, Hadoop, Spark/Scala, Docker, and Kubernetes; performed both integration and unit testing for each project using JUnit and Mockito",
@@ -123,7 +140,7 @@ const experienceItems = [
   {
     position: "Teaching & Behavior Modification",
     company: "Various",
-    period: "Jan 2009 - Sep 2017 (8 years 9 months)",
+    period: "Jan 2009 - Sep 2017",
     items: [
       "Successfully improved lives of clients with autism and other developmental disorders through application of behavior modification techniques",
       "Taught ESL to students of all ages and groups of all sizes"
