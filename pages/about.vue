@@ -23,7 +23,7 @@
         technologies. I am currently submerged in the web world, specifically using PostgreSQL, Prisma, MongoDB, Docker,
         TypeScript, Node, Nest, Angular, and Tailwind to design and implement Full Stack PWA solutions following agile
         methodologies. I am also continuously picking up new technologies and the one I am focused on (and will contiue
-        to focus on for the foreseeable future is Elixir).
+        to focus on for the foreseeable future) is Elixir.
       </p>
       <h2 class="content-heading mt-6">Behavioral Science</h2>
       <p class="mt-4">
