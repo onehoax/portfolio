@@ -54,7 +54,7 @@ import {
 const cards = [
   {
     to: "/resume",
-    title: "Full Stack Developer",
+    title: "Full Stack Engineer",
     description: "Learn more about my professional qualifications"
   },
   {
