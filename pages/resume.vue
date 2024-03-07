@@ -3,11 +3,10 @@
     <div class="main-content">
       <h2 class="content-heading">Summary <ClipboardDocumentListIcon class="content-icon" /></h2>
       <ul class="list-disc pl-5 mt-4">
-        <li>Full Stack Developer with a focus on TypeScript and experience in Java and Data Engineering</li>
-        <li>Led all development and operations at an affiliate marketing startup</li>
+        <li>Full Stack Engineer: TypeScript, Java, Database Systems, Linux, Software Architecture</li>
+        <li>Led development and operations at a betting startup</li>
         <li>
-          Led the development and operations of a background screening application in the Core Protection Technology
-          unit of a major Canadian Bank
+          Led development and operations of a background screening application in the Core Protection Technology unit of a major Canadian Bank
         </li>
         <li>4 years of Software Development experience</li>
         <li>9 years of experience in teaching, behavior modification, and a variety of environments</li>
@@ -27,6 +26,7 @@
       <h3 class="content-subheading mt-4">York University</h3>
       <h4 class="font-medium">Bachelor of Arts - BA, Computer Science</h4>
       <p>Sep 2017 - Dec 2019</p>
+      <p>Remained in the top 15% of the Electrical Engineering and Computer Science faculty throughout the whole program.</p>
       <h3 class="content-subheading mt-4">George Brown College</h3>
       <h4 class="font-medium">Ontario College Advanced Diploma with Honours, Behavioral Science Technology</h4>
       <p>Jan 2012 - Dec 2014</p>
@@ -47,16 +47,6 @@
       <p class="mt-4"><span class="content-subheading">Other: </span>Cloud, Haskell, Blockchain</p>
       <h2 class="content-heading mt-6">Certifications <ClipboardDocumentCheckIcon class="content-icon" /></h2>
       <CertificateItem v-for="cert in certs" :site="cert.site" :name="cert.name" :institution="cert.institution" />
-      <h2 class="content-heading mt-6">Honors & Awards <EllipsisHorizontalCircleIcon class="content-icon" /></h2>
-      <h3 class="content-subheading mt-4">Chair's Honour Roll</h3>
-      <h4 class="font-medium">York University</h4>
-      <p>
-        Chair's Honour Roll for the school year of 2017-2018; remained in the top 15% of my faculty (Electrical
-        Engineering and Computer Science) throughout all the terms of the program.
-      </p>
-      <h3 class="content-subheading mt-4">Dean's Honour List</h3>
-      <h4 class="font-medium">George Brown College</h4>
-      <p>Term Grade Point Average of 3.5 or higher throughout all terms of the program.</p>
     </div>
   </MainContent>
 </template>
@@ -95,14 +85,12 @@ const experienceItems = [
     company: "Inlaze",
     period: "Nov 2023 - Present",
     items: [
-      "Lead Developer for all development and operations of this startup",
-      "Successfully designed and executed measures to standardize and enhance development and operation processes to increase the overall reliability of the organization",
+      "Successfully increased code quality, robustness, and scalability by designing and implementing measures to standardize and enhance development processes in this startup",
       "Supervised and coordinated several projects and developers of varying levels",
       "Coordinated with internal and external teams to identify optimal solutions, prioritize projects/tasks, and deliver excellent quality products on time",
-      "Designed and developed the base layer for the administrative part of a CMS in NestJS, Angular, and MongoDB",
       "Successfully migrated a TypeORM/PostgreSQL database to Mongoose/MongoDB ",
       "Participated in agile best practices through daily stand-up meetings, JIRA boards/tickets, and development based on continuous requirement revision",
-      "Developed using PostgreSQL, TypeORM, MongoDB, Mongoose, Git, Docker, TypeScript, NodeJS, ExpressJS, NestJS, Angular, PrimeNG, and Tailwind CSS"
+      "Designed and developed various products using PostgreSQL, TypeORM, MongoDB, Mongoose, Git, Docker, TypeScript, NodeJS, ExpressJS, NestJS, Angular, Jest, PrimeNG, and Tailwind CSS"
     ]
   },
   {
@@ -116,7 +104,7 @@ const experienceItems = [
     ]
   },
   {
-    position: "Full Stack Developer",
+    position: "Lead Developer",
     company: "CIBC",
     period: "Jan 2021 - Jul 2022",
     items: [
