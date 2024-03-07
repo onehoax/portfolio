@@ -31,22 +31,9 @@
       <h4 class="font-medium">Ontario College Advanced Diploma with Honours, Behavioral Science Technology</h4>
       <p>Jan 2012 - Dec 2014</p>
       <h2 class="content-heading mt-6">Skills <CommandLineIcon class="content-icon" /></h2>
-      <p class="mt-4">
-        <span class="content-subheading">Concepts: </span>
-        OOP/FP, RDBMS/NoSQL, Design Patterns, Full Stack Web Dev, Microservices, RESTful APIs, Containerization, Agile,
-        TDD
+      <p class="mt-4 content-subheading">
+        TypeScript • Java • Git • Docker Products • Database Systems • Linux • Full-Stack Development • Test-Driven Development • Agile Methodologies • Software Architecture
       </p>
-      <p class="mt-4">
-        <span class="content-subheading">Languages: </span>
-        TypeScript, JavaScript, Java, SQL, Bash, Git, HTML/CSS
-      </p>
-      <p class="mt-4">
-        <span class="content-subheading">Frameworks: </span>NodeJS, ExpressJS, NestJS, VueJS, Angular, Tailwind CSS,
-        Prisma ORM, PostgreSQL, Oracle DB, MongoDB, GitHub, Docker, Maven, Spring Boot
-      </p>
-      <p class="mt-4"><span class="content-subheading">Other: </span>Cloud, Haskell, Blockchain</p>
-      <h2 class="content-heading mt-6">Certifications <ClipboardDocumentCheckIcon class="content-icon" /></h2>
-      <CertificateItem v-for="cert in certs" :site="cert.site" :name="cert.name" :institution="cert.institution" />
     </div>
   </MainContent>
 </template>
